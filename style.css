@@ -712,6 +712,10 @@ footer {
         padding: 20px 36px;
     }
 
+    .shape--4 {
+        visibility: hidden;
+    }
+
 }
 
 /* Small phones, tablets, large smart phones */
@@ -748,12 +752,15 @@ footer {
     .language__name {
         font-size: 16px;
     }
+
     .shape--3 {
-        left: 1vw;
+        visibility: hidden;
     }
+    
     .shape--4 {
         top: 53vh;
         left: 59vw;
+        visibility: hidden;
     }
 }
 
@@ -782,5 +789,23 @@ footer {
     }
     .modal__half {
         padding: 40px;
+    }
+
+    .shape--0 {
+        top: 13vh;
+    }
+
+    .shape--3 {
+        visibility: hidden;
+    }
+    
+    .shape--4 {
+        top: 53vh;
+        left: 59vw;
+        visibility: hidden;
+    }
+
+    .shape--5 {
+        visibility: hidden;
     }
 }
